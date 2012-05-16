@@ -3,29 +3,32 @@ Demo Page Styles
 ========================================================================== */
 html {
   background: #f0f0eb;
-  font-family: "Helvetica Neue", sans-serif; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 body {
-  background: #FFF;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-  -webkit-border-radius: 0 0 2px 2px;
-  -moz-border-radius: 0 0 2px 2px;
-  border-radius: 0 0 2px 2px;
-  margin: 0 auto 2em;
-  padding: 2em 1em;
-  width: 600px; }
+  background: white;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  margin: 3% auto;
+  max-width: 800px;
+  padding: 0 2% 6% 2%;
+  width: 90%; }
 
-body .zocial {
-  margin: 8px 4px;
-  font-size: 13px; }
+.zocial {
+  font-size: 13px;
+  margin: 8px 4px; }
 
 h2 {
-  font-size: 17px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 1em;
   font-weight: normal;
-  padding: 1em 0 0.75em;
-  border-bottom: 1px solid #eee; }
+  padding: 1em 0 0.5em; }
 
 /* ==========================================================================
 Icon font
