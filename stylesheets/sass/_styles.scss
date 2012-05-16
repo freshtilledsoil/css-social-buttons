@@ -357,6 +357,13 @@ a.zocial {
 .zocial.yelp {background-color: #e60010;}
 .zocial.youtube {background-color: #f00;}
 
+/* The Miscellaneous Buttons */
+
+.zocial.primary, .zocial.secondary {margin: 1px 0; padding: 0 16px;}
+.zocial.primary:before, .zocial.secondary:before {display: none;}
+.zocial.primary {background-color: $grayDark;}
+.zocial.secondary {background-color: $grayLightest; color: $grayDarker; text-shadow: 0 1px 0 rgba($white, 0.8);}
+
 /* Any browser-specific adjustments */
 
 button::-moz-focus-inner {

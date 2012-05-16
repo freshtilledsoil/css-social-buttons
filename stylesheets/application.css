@@ -703,6 +703,22 @@ a.zocial {
 .zocial.youtube {
   background-color: #f00; }
 
+/* The Miscellaneous Buttons */
+.zocial.primary, .zocial.secondary {
+  margin: 1px 0;
+  padding: 0 16px; }
+
+.zocial.primary:before, .zocial.secondary:before {
+  display: none; }
+
+.zocial.primary {
+  background-color: #333333; }
+
+.zocial.secondary {
+  background-color: #f0f0eb;
+  color: #222222;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+
 /* Any browser-specific adjustments */
 button::-moz-focus-inner {
   border: 0;
